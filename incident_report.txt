@@ -1,0 +1,65 @@
+========================================
+INCIDENT REPORT — ENTERPRISE BREACH SIMULATION
+Date: 16 May 2026
+Team: Red Team / Blue Team Exercise
+Target: 192.168.62.130 (Ubuntu DVWA)
+Attacker: 192.168.62.131 (Kali Linux)
+========================================
+
+ATTACK TIMELINE
+---------------
+13:04 - Nmap Reconnaissance (T1046)
+        Port 80 open, Apache 2.4.25 detected
+
+13:04 - SQLMap Automated Scan (T1190)
+        Multiple ORDER BY payloads injected
+
+13:06 - Manual SQL Injection (T1190)
+        Payload: 1' OR '1'='1
+        Result: All users dumped
+
+13:07 - Data Exfiltration (T1190)
+        Payload: UNION SELECT user,password FROM users
+        Result: admin MD5 hash stolen
+        Hash: 5f4dcc3b5aa765d61d8327deb882cf99
+        Cracked: password
+
+13:18 - Hydra Brute Force (T1110)
+        Username: admin
+        Password: password (found)
+
+13:20 - PHP Shell Upload (T1505)
+        File: shell.php uploaded via /vulnerabilities/upload/
+
+13:28 - Remote Code Execution (T1059)
+        Shell executed — www-data access gained
+        Container ID: 890936e06dcf
+        whoami: www-data
+
+========================================
+MITRE ATT&CK MAPPING
+--------------------
+T1046 - Network Service Discovery (Nmap)
+T1110 - Brute Force (Hydra)
+T1190 - Exploit Public Facing App (SQLi)
+T1505 - Server Software Component (Shell Upload)
+T1059 - Command and Scripting Interpreter (RCE)
+
+========================================
+FORENSIC EVIDENCE
+-----------------
+Log file: attack_logs.txt
+Error log: error_logs.txt
+MD5 Hash cracked: password
+Shell location: /hackable/uploads/shell.php
+
+========================================
+RECOMMENDATIONS
+---------------
+1. Input validation implement karo SQL injection rokne ke liye
+2. File upload restrictions lagao (.php files block karo)
+3. Strong password policy enforce karo
+4. WAF (Web Application Firewall) install karo
+5. SIEM alerts configure karo suspicious IPs ke liye
+6. Docker container ko non-root user se run karo
+========================================

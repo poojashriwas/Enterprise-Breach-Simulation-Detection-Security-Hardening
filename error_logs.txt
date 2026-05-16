@@ -1,0 +1,40 @@
+[Sat May 16 12:06:18.499972 2026] [mpm_prefork:notice] [pid 276] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Sat May 16 12:06:18.500045 2026] [core:notice] [pid 276] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 16 12:24:37.546755 2026] [:error] [pid 289] [client 172.17.0.1:43386] PHP Notice:  Constant DVWA_WEB_PAGE_TO_ROOT already defined in /var/www/html/dvwa/includes/DBMS/MySQL.php on line 9, referer: http://127.0.0.1/setup.php
+[Sat May 16 12:42:21.837428 2026] [:error] [pid 308] [client 192.168.62.131:51518] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.840179 2026] [:error] [pid 290] [client 192.168.62.131:51524] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.840836 2026] [:error] [pid 310] [client 192.168.62.131:51490] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.844444 2026] [:error] [pid 291] [client 192.168.62.131:51534] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.846957 2026] [:error] [pid 287] [client 192.168.62.131:51548] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.848810 2026] [:error] [pid 309] [client 192.168.62.131:51502] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.851517 2026] [:error] [pid 307] [client 192.168.62.131:51562] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:42:21.851571 2026] [:error] [pid 288] [client 192.168.62.131:51552] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:44:49.874903 2026] [:error] [pid 290] [client 192.168.62.131:41350] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:44:49.874967 2026] [:error] [pid 290] [client 192.168.62.131:41350] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 12:49:02.246622 2026] [:error] [pid 308] [client 192.168.62.131:56192] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:49:02.246679 2026] [:error] [pid 308] [client 192.168.62.131:56192] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 12:49:23.620419 2026] [:error] [pid 309] [client 192.168.62.131:49732] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:49:23.620463 2026] [:error] [pid 309] [client 192.168.62.131:49732] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 12:49:50.969585 2026] [:error] [pid 291] [client 192.168.62.131:50978] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:49:50.969632 2026] [:error] [pid 291] [client 192.168.62.131:50978] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 12:55:08.770603 2026] [:error] [pid 291] [client 192.168.62.131:44750] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 12:55:08.771251 2026] [:error] [pid 291] [client 192.168.62.131:44750] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 13:00:47.491657 2026] [core:warn] [pid 308] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 16 13:00:47.497963 2026] [mpm_prefork:notice] [pid 308] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Sat May 16 13:00:47.498014 2026] [core:notice] [pid 308] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 16 13:15:04.356678 2026] [:error] [pid 315] [client 192.168.62.131:54026] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 13:15:04.356945 2026] [:error] [pid 315] [client 192.168.62.131:54026] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 13:17:53.361865 2026] [core:warn] [pid 296] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat May 16 13:17:53.372087 2026] [mpm_prefork:notice] [pid 296] AH00163: Apache/2.4.25 (Debian) configured -- resuming normal operations
+[Sat May 16 13:17:53.372144 2026] [core:notice] [pid 296] AH00094: Command line: '/usr/sbin/apache2'
+[Sat May 16 13:18:20.607689 2026] [:error] [pid 302] [client 192.168.62.131:51944] PHP Notice:  Undefined index: user_token in /var/www/html/login.php on line 12
+[Sat May 16 13:18:20.607759 2026] [:error] [pid 302] [client 192.168.62.131:51944] PHP Notice:  Undefined index: session_token in /var/www/html/login.php on line 12
+[Sat May 16 13:18:42.014097 2026] [:error] [pid 304] [client 192.168.62.131:44524] script '/var/www/html/hackable/uploads/shell.php' not found or unable to stat
+[Sat May 16 13:28:27.622386 2026] [:error] [pid 304] [client 192.168.62.131:40594] PHP Warning:  fsockopen(): unable to connect to 192.168.62.131:4444 (Connection refused) in /var/www/html/hackable/uploads/shell.php on line 2
+[Sat May 16 13:28:27.622444 2026] [:error] [pid 304] [client 192.168.62.131:40594] PHP Warning:  proc_open(): Descriptor item must be either an array or a File-Handle in /var/www/html/hackable/uploads/shell.php on line 3
+[Sat May 16 13:28:35.324897 2026] [:error] [pid 305] [client 192.168.62.131:57790] PHP Warning:  fsockopen(): unable to connect to 192.168.62.131:4444 (Connection refused) in /var/www/html/hackable/uploads/shell.php on line 2
+[Sat May 16 13:28:35.324973 2026] [:error] [pid 305] [client 192.168.62.131:57790] PHP Warning:  proc_open(): Descriptor item must be either an array or a File-Handle in /var/www/html/hackable/uploads/shell.php on line 3
+[Sat May 16 13:28:47.194764 2026] [:error] [pid 309] [client 192.168.62.131:49410] PHP Warning:  fsockopen(): unable to connect to 192.168.62.131:4444 (Connection refused) in /var/www/html/hackable/uploads/shell.php on line 2
+[Sat May 16 13:28:47.195880 2026] [:error] [pid 309] [client 192.168.62.131:49410] PHP Warning:  proc_open(): Descriptor item must be either an array or a File-Handle in /var/www/html/hackable/uploads/shell.php on line 3
+[Sat May 16 13:29:28.905548 2026] [:error] [pid 301] [client 192.168.62.131:39776] PHP Warning:  fsockopen(): unable to connect to 192.168.62.131:4444 (Connection refused) in /var/www/html/hackable/uploads/shell.php on line 2
+[Sat May 16 13:29:28.905606 2026] [:error] [pid 301] [client 192.168.62.131:39776] PHP Warning:  proc_open(): Descriptor item must be either an array or a File-Handle in /var/www/html/hackable/uploads/shell.php on line 3
